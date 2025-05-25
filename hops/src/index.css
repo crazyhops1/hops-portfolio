@@ -1,0 +1,42 @@
+body, html{
+  height: 100vh;
+  width: 100vw;
+
+background-color: #212121; 
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border-radius: 0;
+
+
+
+}
+input,textarea,button{
+  color: black;
+  border-radius: 5px;
+  border-style: none;
+  padding: 5px;
+  font-size: 3rem;
+  
+}
+.nav-link{
+  color: white;
+  text-decoration: none;
+  text-decoration-color: azure;
+}
+.my-card:hover {
+  transform: rotateY(165deg);
+  transition-duration: 0.3s; 
+
+ 
+}
+.my-skill-card:hover{
+  height: 102%;
+  background: linear-gradient( #ff7e5f, #feb47b); /* From left to right */
+  transition-duration: 1s; /* Add 's' for seconds */
+ 
+}
+
