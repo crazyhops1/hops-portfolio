@@ -19,7 +19,7 @@ const Hero = () => {
           <p   style={{color:'#00CFFF'}} className="card-text">Let’s build something amazing together.</p>
         </div>
       </div>
-      <div  className="card mb-3" style={{  backgroundColor:'#212121', color:'white', margin :"2rem", border:"2px solid #00CFFF" , borderStyle:'dotted', padding:"0.5rem"}}>
+      <div  className="card mb-3" style={{  backgroundColor:'#212121', color:'white', margin :"0.1rem", border:"2px solid #00CFFF" , borderStyle:'dotted', padding:"0.5rem"}}>
   <div className="row g-0">
     <div className="col-md-6 col-sm-6">
       <img src="./hops-media.png" className="img-fluid rounded-start" alt="..." />
@@ -42,5 +42,6 @@ const Hero = () => {
 };
 
 export default Hero;
+
 
 
