@@ -44,9 +44,7 @@ const Projects = ({projectRef}) => {
      <p className="card-text">
      Technologies :<br/> {item.Technologies}
     </p>
-    <a href={item.link} className="btn "style={{backgroundColor:'#00CFFF'}}>
-     viwe Projects
-    </a>
+ 
   </div>
 </div>
 
@@ -56,5 +54,6 @@ const Projects = ({projectRef}) => {
     </Element>
   )
 }
+
 
 export default Projects
