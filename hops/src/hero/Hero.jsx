@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <div>
   
-      <div className=" text-white" style={{ height: '100vh', backgroundColor: 'black', position: 'relative' }}>
+      <div className=" text-white" style={{  width: '100%',height: '100vh', backgroundColor: 'black', position: 'relative' }}>
         <img
           src="./hero.jpeg"
           className=""
@@ -42,4 +42,5 @@ const Hero = () => {
 };
 
 export default Hero;
+
 
