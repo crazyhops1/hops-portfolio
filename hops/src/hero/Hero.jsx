@@ -3,10 +3,7 @@ import React from 'react';
 const Hero = () => {
   return (
     <div>
-      {/* Overlapping Navbar */}
-     
-
-      {/* Hero Section */}
+  
       <div className=" text-white" style={{ height: '100vh', backgroundColor: 'black', position: 'relative' }}>
         <img
           src="./hero.jpeg"
@@ -34,7 +31,6 @@ const Hero = () => {
          Social Media Web App<br/>
          Autentication, real-time chat, etc.
         </p><br/>
-        <a href='https://hops-media-bhyj.onrender.com'  className="btn "style={{backgroundColor:'#00CFFF'}} >View Projects</a>
        
       </div>
     </div>
@@ -46,3 +42,4 @@ const Hero = () => {
 };
 
 export default Hero;
+
