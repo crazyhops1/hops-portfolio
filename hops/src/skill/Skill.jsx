@@ -17,7 +17,7 @@ const Skill = () => {
     <h4>what I Know</h4>
        <div className='d-flex justify-content-evenly flex-wrap  '>
        {icons && icons.map((item,key)=>(
-        <div key={key} style={{margin:'2rem'}}>
+        <div key={key} >
             {item}
         </div>
         
@@ -26,5 +26,6 @@ const Skill = () => {
  </Element>
   )
 }
+
 
 export default Skill
