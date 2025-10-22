@@ -1,6 +1,8 @@
 import React from 'react'
 import Navbar from './navbar/Navbar'
 import 'bootstrap/dist/css/bootstrap.min.css'
+import 'bootstrap/dist/js/bootstrap.min.js'
+
 import Hero from './hero/Hero'
 import Skill from './skill/Skill'
 import Projects from './projects/Projects'

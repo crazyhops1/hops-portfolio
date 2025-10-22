@@ -1,10 +1,25 @@
 import React from 'react'
 import {Element} from'react-scroll'
+import project1 from '../images/new-media1.png'
+import project12 from '../images/new-media2.png'
+import project13 from '../images/new-media3.png'
 
 
-const Projects = ({projectRef}) => {
- const proJects=[{
-    image:"./hops-media.png",
+import project2 from '../images/hops-media.png'
+import project3 from '../images/hospital.png'
+
+
+ export const proJects=[{
+    image:project1,
+    allImage:[project12,project13,project1],
+    title:'AI-powered social media',
+    dec:"This project is a full-stack social media web application built using the MERN stack (MongoDB, Express, React, Node.js). It provides a complete user experience similar to popular social platforms, featuring authentication, real-time messaging, AI-powered search, and dynamic user interactions.",
+    Technologies :"React.js, Redux, Axios, Socket.io-client Node.js, Express.js, MongoDB, Mongoose gemini",
+    link:""
+    
+ },
+ {
+    image:project2,
     title:'social media app',
     dec:"social media platform with features like user authentication, follow/unfollow , messaging, user search, post creation, liking, and real-time chat with message history.",
     Technologies :" MongoDB, Express.js, React.js, Node.js, Socket.io",
@@ -13,7 +28,7 @@ const Projects = ({projectRef}) => {
  },
 
 {
-    image:'./hospital.png',
+    image:project3,
     title:'Hospital',
     dec:'Created a fully responsive landing page for a hospital, focusing on layout structuring, clean design, reusable components, and form handling. Emphasized responsiveness and compatibility across devices',
     Technologies:'React.js Css Bootstrap',
@@ -24,6 +39,10 @@ const Projects = ({projectRef}) => {
 
 
 }]
+
+
+const Projects = ({projectRef}) => {
+ 
 
 
 
