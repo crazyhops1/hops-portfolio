@@ -1,6 +1,6 @@
 import React from 'react';
 import {Link} from'react-scroll'
-import cv from '../store/harsh sharma.pdf'
+import cv from '../store/Harsh_Sharma_Resume.4cb1dfe3a98f00a56fa9 (1).docx'
 
 const Navbar = ({}) => {
   return (
@@ -27,5 +27,6 @@ const Navbar = ({}) => {
 };
 
 export default Navbar;
+
 
 
